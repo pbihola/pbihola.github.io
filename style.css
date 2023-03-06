@@ -1,0 +1,59 @@
+/* Main Body and HTML*/
+body, html
+{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+    /*Background Image*/
+    background: url(Photoes/Main2.jfif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* LOGO or title text*/
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+}
+
+/*Button classes*/
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: #13c861;
+    border-color: #13c861;
+    
+}
+
+.btn-primary:hover{
+    background-color:#0802a5;
+    border-color:#0802a5;
+    
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
+
+.buffer{
+    height: 10rem;
+}
+
+/* <hr> tag css*/
+hr {
+    border-width: 5px;
+    border-color: #13c861;
+    margin: 20px auto;
+    color: black;
+    border: 3px solid #13c861;
+    max-width: 78px;
+    opacity: 1;
+}
